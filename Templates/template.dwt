@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Table of Contents</title>
+<!-- TemplateEndEditable -->
+<link href="../style.css" rel="stylesheet" type="text/css">
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+<body>
+<header>
+<div style="display: inline-block; vertical-align:middle; margin-left:1ch;">
+<a href="../index.html">SHEIN HTIKE'S WEBSITE<br>
+------------------------------<br>
+</a> <a class="title" href="mailto:chocolateshein.htike@gmail.com">CHOCOLATESHEIN.HTIKE@GMAIL.COM</a>
+	</div>
+<br/>
+</header>
+	<h1><!-- TemplateBeginEditable name="title" -->title<!-- TemplateEndEditable --></h1>
+<!-- TemplateBeginEditable name="date" -->date<!-- TemplateEndEditable -->
+	<hr/>
+<!-- TemplateBeginEditable name="body" -->body<!-- TemplateEndEditable -->
+</body>
+</html>
