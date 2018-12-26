@@ -2,9 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
-<!-- TemplateBeginEditable name="doctitle" -->
-<title>Table of Contents</title>
-<!-- TemplateEndEditable -->
+<title><!-- TemplateBeginEditable name="title" -->title<!-- TemplateEndEditable --></title>
 <link href="../style.css" rel="stylesheet" type="text/css">
 <!-- TemplateBeginEditable name="head" -->
 <!-- TemplateEndEditable -->
@@ -18,7 +16,7 @@
 	</div>
 <br/>
 </header>
-	<h1><!-- TemplateBeginEditable name="title" -->title<!-- TemplateEndEditable --></h1>
+	<h1><!-- TemplateBeginEditable name="title2" -->title<!-- TemplateEndEditable --></h1>
 <!-- TemplateBeginEditable name="date" -->date<!-- TemplateEndEditable -->
 	<hr/>
 <!-- TemplateBeginEditable name="body" -->body<!-- TemplateEndEditable -->
