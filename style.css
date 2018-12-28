@@ -3,14 +3,24 @@
 html{
 	--myYellow:#7F7F00;
 	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
-	background-image: url("/images/background.jpg");
+	background: url("/images/background.jpg") no-repeat center center fixed;
+	padding: 0px 10px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	height: 100%;
 }
 body{
-	margin:40px auto;
+	margin:10px auto;
 	max-width:800px;
 	font-size: 1.1em;
-	padding:0 10px;
+	padding:20px 10px;
+	min-height: calc(100% - 20px);
+}
+.floating{
 	background-color: rgba(255, 255, 255, 0.5);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.07), 0 6px 20px 0 rgba(0, 0, 0, 0.07);
 }
 header{
 	text-align: center;
@@ -30,8 +40,7 @@ header{
 	margin: auto;
 	text-decoration: none;
 	color: black;
-}
-
+	background: rgba(255,255,255,0.70);
 }
 #entrybutton:hover{
 	font-style: italic;

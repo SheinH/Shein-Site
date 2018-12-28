@@ -15,7 +15,7 @@ import java.util.regex.Pattern;
 
 public class MakeContents {
     static String contentstemplate;
-    static final String titlePattern = "<!-- InstanceBeginEditable name=\"title\" -->[\\n \t]*(.+)[\\n \t]*<!-- InstanceEndEditable -->";
+    static final String titlePattern = "<!-- InstanceBeginEditable name=\"title\" -->[\\n \t]*<title>(.+)</title>[\\n \t]*<!-- InstanceEndEditable -->";
     static final String datePattern = "<!-- InstanceBeginEditable name=\"date\" -->[\\n \t]*(.+)[\\n \t]*<!-- InstanceEndEditable -->";
     static DateFormat df = new SimpleDateFormat("MM/dd/yy");
 
