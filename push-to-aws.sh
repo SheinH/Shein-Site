@@ -1,18 +1,3 @@
 #!/bin/bash
 
-function copy {
-	aws s3 cp $1 s3://sheinhtike.com/$1
-}
-
-copy index.html
-copy contents.html
-copy style.css
-for file in images/*
-do
-	copy $file
-done
-
-for file in writeups/*
-do
-	copy $file
-done
+cd .. && aws s3 sync Shein-Site s3://sheinhtike.com/ --exclude "*" --include "/*.html" --exclude "*template.html" --include "writeups/*" --include "*.css" --include "images/*" --exclude "*.DS_Store"
