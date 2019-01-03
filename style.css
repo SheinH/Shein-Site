@@ -62,8 +62,8 @@ figure{
 }
 .centerimg{
 	object-fit: cover;
-	max-width: 100%;
-	max-height: 400px;
+	width: 100%;
+	height: 400px;
 }
 a{
 	text-decoration: none;
