@@ -8,3 +8,4 @@ _notes/
 *.DS_Store
 .idea/
 out/
+lib/*
