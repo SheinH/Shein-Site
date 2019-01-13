@@ -15,8 +15,8 @@ import java.util.regex.Pattern;
 
 public class MakeContents {
     static String contentstemplate;
-    static final String titlePattern = "<!-- InstanceBeginEditable name=\"title\" -->[\\n \t]*<title>(.+)</title>[\\n \t]*<!-- InstanceEndEditable -->";
-    static final String datePattern = "<!-- InstanceBeginEditable name=\"date\" -->[\\n \t]*(.+)[\\n \t]*<!-- InstanceEndEditable -->";
+    static final String titlePattern = "<!-- InstanceBeginEditable name=\"title\" -->.*<title>(.+)</title>.*<!-- InstanceEndEditable -->";
+    static final String datePattern = "<!-- InstanceBeginEditable name=\"date\" -->.*((\\d{1,2}\\/\\d{1,2}\\/\\d{2})).*<!-- InstanceEndEditable -->";
     static DateFormat df = new SimpleDateFormat("MM/dd/yy");
 
     static class Page implements Comparable<Page>{
@@ -62,8 +62,11 @@ public class MakeContents {
             try {
                 list.add(makePage(p.toString()));
             }
-            catch(Exception doesntmatter){}
+            catch(Exception doesntmatter){
+                doesntmatter.printStackTrace();
+            }
         });
+		list.forEach(System.out::println);
         Collections.sort(list);
         Collections.reverse(list);
         StringBuilder sb = new StringBuilder();
@@ -84,7 +87,7 @@ public class MakeContents {
         return new Page(filename,title,date);
     }
     static String findPattern(String source, String regex){
-        Pattern pattern = Pattern.compile(regex);
+        Pattern pattern = Pattern.compile(regex,Pattern.DOTALL);
         Matcher matcher = pattern.matcher(source);
         matcher.find();
         return matcher.group(1);
