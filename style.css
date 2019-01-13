@@ -2,7 +2,7 @@
 /* CSS Document */
 html{
 	--myYellow:#7F7F00;
-	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	font-family: "Consolas", "Menlo", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "Monaco", "Courier New", monospace;
 	background: url("/images/background.jpg") no-repeat center center fixed;
 	padding: 0px 10px;
   -webkit-background-size: cover;
