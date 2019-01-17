@@ -2,7 +2,7 @@
 /* CSS Document */
 html{
 	--myYellow:#7F7F00;
-  font-family: "SF Mono";
+  font-family: "Menlo";
 	background: url("/images/background.jpg") no-repeat center center fixed;
 	padding: 0px 10px;
   -webkit-background-size: cover;
@@ -92,90 +92,29 @@ a:hover{
 }
 /** Bold */
 @font-face {
-  font-family: "SF Mono";
+  font-family: "Menlo";
   font-weight: 700;
-  src: url("https://sf.abarba.me/SFMono-Bold.otf");
+  src: url("/fonts/Menlo-Bold.ttf") format("truetype");
 }
 
 /** Bold Italic */
 @font-face {
-  font-family: "SF Mono";
+  font-family: "Menlo";
   font-weight: 700;
   font-style: italic;
-  src: url("https://sf.abarba.me/SFMono-BoldItalic.otf");
-}
-
-/** Heavy */
-@font-face {
-  font-family: "SF Mono";
-  font-weight: 800;
-  src: url("https://sf.abarba.me/SFMono-Heavy.otf");
-}
-
-/** Heavy Italic */
-@font-face {
-  font-family: "SF Mono";
-  font-weight: 800;
-  font-style: italic;
-  src: url("https://sf.abarba.me/SFMono-HeavyItalic.otf");
-}
-
-/** Light */
-@font-face {
-  font-family: "SF Mono";
-  font-weight: 200;
-  src: url("https://sf.abarba.me/SFMono-Light.otf");
-}
-
-/** Light Italic */
-@font-face {
-  font-family: "SF Mono";
-  font-weight: 200;
-  font-style: italic;
-  src: url("https://sf.abarba.me/SFMono-HeavyItalic.otf");
-}
-
-/** Medium */
-@font-face {
-  font-family: "SF Mono";
-  font-weight: 500;
-  src: url("https://sf.abarba.me/SFMono-Medium.otf");
-}
-
-/** Medium Italic */
-@font-face {
-  font-family: "SF Mono";
-  font-weight: 500;
-  font-style: italic;
-  src: url("https://sf.abarba.me/SFMono-MediumItalic.otf");
+  src: url("/fonts/Menlo-BoldItalic.ttf") format("truetype");
 }
 
 /** Regular */
 @font-face {
-  font-family: "SF Mono";
+  font-family: "Menlo";
   font-weight: 400;
-  src: url("https://sf.abarba.me/SFMono-Regular.otf");
+  src: url("/fonts/Menlo-Regular.ttf") format("truetype");
 }
 
 /** Regular Italic */
 @font-face {
-  font-family: "SF Mono";
+  font-family: "Menlo";
   font-weight: 400;
   font-style: italic;
-  src: url("https://sf.abarba.me/SFMono-RegularItalic.otf");
-}
-
-/** Semibold */
-@font-face {
-  font-family: "SF Mono";
-  font-weight: 600;
-  src: url("https://sf.abarba.me/SFMono-Semibold.otf");
-}
-
-/** Semibold Italic */
-@font-face {
-  font-family: "SF Mono";
-  font-weight: 600;
-  font-style: italic;
-  src: url("https://sf.abarba.me/SFMono-SemiboldItalic.otf");
-}
+  src: url("/fonts/Menlo-Italic.ttf") format("truetype");
