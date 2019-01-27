@@ -3,7 +3,7 @@
 html{
 	-webkit-font-smoothing: subpixel-antialiased;
 	--myYellow:#7F7F00;
-	font-family: "Menlo";
+	font-family: "Menlo", "Consolas", "Lucida Console", "DejaVu Sans Mono", Monaco, "Courier New", Courier, monospace;
 	background: url("/images/background.jpg") no-repeat center center fixed;
 	padding: 0px 10px;
 	-webkit-background-size: cover;
@@ -100,31 +100,3 @@ a:hover{
 	display: flex;
 	text-align: center;
 }
-/** Bold */
-@font-face {
-	font-family: "Menlo";
-	font-weight: 700;
-	src: url("/fonts/Menlo-Bold.ttf") format("truetype");
-}
-
-/** Bold Italic */
-@font-face {
-	font-family: "Menlo";
-	font-weight: 700;
-	font-style: italic;
-	src: url("/fonts/Menlo-BoldItalic.ttf") format("truetype");
-}
-
-/** Regular */
-@font-face {
-	font-family: "Menlo";
-	font-weight: 400;
-	src: url("/fonts/Menlo-Regular.ttf") format("truetype");
-}
-
-/** Regular Italic */
-@font-face {
-	font-family: "Menlo";
-	font-weight: 400;
-	font-style: italic;
-	src: url("/fonts/Menlo-Italic.ttf") format("truetype");
