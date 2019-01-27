@@ -66,7 +66,7 @@ public class MakeContents {
                 doesntmatter.printStackTrace();
             }
         });
-		list.forEach(System.out::println);
+		//list.forEach(System.out::println);
         Collections.sort(list);
         Collections.reverse(list);
         StringBuilder sb = new StringBuilder();

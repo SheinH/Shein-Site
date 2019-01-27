@@ -61,11 +61,6 @@ figure{
 	padding:0 10px;
 	margin: auto;
 }
-.centerimg{
-	object-fit: cover;
-	width: 100%;
-	height: 400px;
-}
 a{
 	text-decoration: none;
 	color: black;
@@ -81,6 +76,15 @@ a:hover{
 }
 .pagelinks:hover{
 	border-bottom: 0.0833em dashed var(--myYellow);
+}
+.centerdiv{
+	text-align: center;
+}
+.centerdiv img{
+	max-width: 100%;
+}
+.centerdiv .centerimg{
+	max-width: 500px;
 }
 #maindiv{
 	position: fixed;
