@@ -15,7 +15,7 @@ html{
 body{
 	box-sizing: border-box;
 	margin:10px auto;
-	max-width:800px;
+	max-width: 950px;
 	font-size: 1.1em;
 	padding:20px 10px;
 	min-height: calc(100% - 20px);
@@ -35,6 +35,11 @@ header{
 	width: 100%;
 	height: 8em;
 	max-height: 200px;
+}
+figure img{
+	width: 100%;
+	object-fit: cover;
+	max-height: 500px;
 }
 #entrybutton {
 	font-size: 3em;
