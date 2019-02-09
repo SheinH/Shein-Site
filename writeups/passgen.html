@@ -81,18 +81,14 @@
     <p>Just an applet for generating passwords Safari-style.</p>
     <br/>
     <div class="centerdiv" style="width: 100%">
-        <div style="display: inline-block; text-align: left">
+        <div style="display: inline-block; text-align: right">
             <input onClick="this.select()" type="text" id="pass"
-                   style='font-family: "Menlo", "Consolas", "Lucida Console", "DejaVu Sans Mono", Monaco, "Courier New", Courier, monospace; font-size: 1.1em; width: 400px; text-align: center'
+                   style='font-family: "Menlo", "Consolas", "Lucida Console", "DejaVu Sans Mono", Monaco, "Courier New", Courier, monospace; font-size: 1.1em; width: 100%; max-width: 800px; text-align: center'
                    readonly>
             <br/>
-            <div style="display: inline-block; width: 48%; text-align: center">
+            <div>
                 <button style="width: 78px" onclick="copy()">Copy</button>
-                </inline>
-            </div>
-            <div style="display: inline-block; width: 48%; text-align: center">
                 <button style="width: 78px" onclick="makePass()">Generate</button>
-                </inline>
             </div>
         </div>
         </form>
